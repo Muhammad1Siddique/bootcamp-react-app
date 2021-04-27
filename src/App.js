@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Notmap from './Component/notMap'
+import Notfilter from './Component/notFilter'
 
 function App() {
   return (
     <div>
-      <h1><strong>Inshallah, I will complete 12 projects before eid-u-fiter.</strong></h1>
+      <h2>Component with .Map Method</h2>
+      <Notmap />
+      <h2>Component with .Filter Method</h2>
+      <Notfilter />
     </div>
   );
 }
